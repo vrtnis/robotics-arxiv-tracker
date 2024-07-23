@@ -1,10 +1,11 @@
 
+
 <div style="display: flex; justify-content: center; align-items: center;">
     <div style="margin-right: 20px;">
         <img src="imgs/readme/robotics_arxiv_tracker.png" alt="Robotics Arxiv Tracker" width="200px" />
     </div>
     <div>
-        <img src="imgs/readme/readme_tracker_cover.png" alt="Readme cover" width="500px" />
+        <img src="imgs/readme/readme_tracker_cover.png" alt="Readme cover" width="350px" />
     </div>
 </div>
 
