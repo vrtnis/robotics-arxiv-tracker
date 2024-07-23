@@ -1,6 +1,6 @@
 site_title = "arXiv tracker"
 limit_days = 7
-cache_url = "https://vrtnis.github.io/arxiv-tracker/cache.json"
+cache_url = "https://vrtnis.github.io/MyArxiv/cache.json"
 
 [[sources]]
 limit = 150
