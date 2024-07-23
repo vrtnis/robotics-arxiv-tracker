@@ -8,13 +8,15 @@ document.onkeydown = function (e) {
     }
 };
 
-/* Expand the latest date entries by default */
+/* Expand the "Robotics" section of the latest date by default */
 document.addEventListener("DOMContentLoaded", function () {
     const dayContainers = document.querySelectorAll('.day-container');
     if (dayContainers.length > 0) {
         const latestContainer = dayContainers[0];
-        const detailsElements = latestContainer.querySelectorAll('details');
-        detailsElements.forEach(details => details.setAttribute('open', true));
+        const roboticsSection = Array.from(latestContainer.querySelectorAll('summary')).find(summary => summary.textContent.trim().startsWith('Robotics'));
+        if (roboticsSection) {
+            roboticsSection.parentElement.setAttribute('open', true);
+        }
     }
 });
 
