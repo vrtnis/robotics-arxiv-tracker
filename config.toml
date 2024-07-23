@@ -1,5 +1,5 @@
 site_title = "robotics arXiv tracker"
-limit_days = 3
+limit_days = 1
 cache_url = "https://vrtnis.github.io/robotics-arxiv-tracker/cache.json"
 
 [[sources]]
