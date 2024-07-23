@@ -22,10 +22,6 @@ limit = 100
 category = "cs.LG"
 title = "Machine Learning"
 
-[[sources]]
-limit = 100
-category = "cs.GR"
-title = "Graphics"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
