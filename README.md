@@ -44,3 +44,6 @@ The Robotics arXiv Tracker fetches the latest academic papers in the field of ro
 The tracker is configured to fetch new data from the arXiv repository daily.
 
 
+### Discord:
+
+For the latest community-sourced robotics updates, consider joining the excellent [K-Scale Labs Discord](https://discord.gg/rhCy6UdBRD) server.
