@@ -1,5 +1,5 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["BERT", "GPT", "Transformer", "Isaac", "MuJoCo", "Gym"];
+let titles_model = ["BERT", "GPT", "Transformer", "Isaac", "MuJoCo"];
 let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised", "Simulation"];
 let titles =  titles_model + titles_method + titles_type;
 let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio", "Pieter Abbeel", "Fei-Fei Li", "Sergey Levine"];
@@ -17,7 +17,7 @@ let conferences = [
     "ACML", "AISTATS", "ECML", "ICLR", "ICML", "ML4H", "NeurIPS", "NIPS", "UAI",
     // NLP
     "AACL", "ACL", "CCL", "COLING", "COLT", "CoNLL", "EACL", "EMNLP", "ICASSP", "ICDAR", "ICONIP", "INTERSPEECH", "LREC", "NAACL", "NLPCC", "RepL4NLP", "SIGDIAL", "SemEval", "WANLP", "WASSA", "WOAH",
-    // Robotics and Simulators
+    // Robotics
     "IROS", "ICRA", "RSS", "HRI", "ISRR", "Humanoids", "SIMPAR", "RoboCup", "ICRA", "IROS", "CORL", "ICAPS"
     // Arch
     "ASPLOS", "ATC", "DATE", "EuroSys", "FAST", "HPCA", "ISCA", "MICRO", "PPoPP", "SC", "SoCC",
