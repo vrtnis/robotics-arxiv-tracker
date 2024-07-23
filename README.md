@@ -1,4 +1,4 @@
-## **Robotics Arxiv Tracker**
+## **Robotics arXiv Tracker**
 
 <div align="center">
     <img src="imgs/readme/robotics_arxiv_tracker.png" alt="Robotics Arxiv Tracker" width="300px" />
