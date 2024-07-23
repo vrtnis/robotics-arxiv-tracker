@@ -1,13 +1,16 @@
+## Robotics arXiv Tracker
 
 
-<div style="display: flex; justify-content: center; align-items: center;">
-    <div style="margin-right: 20px;">
-        <img src="imgs/readme/robotics_arxiv_tracker.png" alt="Robotics Arxiv Tracker" width="200px" />
-    </div>
-    <div>
-        <img src="imgs/readme/readme_tracker_cover.png" alt="Readme cover" width="350px" />
-    </div>
-</div>
+<table style="width:100%">
+  <tr>
+    <td>
+      <img src="imgs/readme/robotics_arxiv_tracker.png" alt="Robotics Arxiv Tracker" width="200px" />
+    </td>
+    <td>
+      <img src="imgs/readme/readme_tracker_cover.png" alt="Readme cover" width="350px" />
+    </td>
+  </tr>
+</table>
 
 <p>A tool configured to help researchers efficiently track and review the latest academic papers in the field of robotics.</p>
 
