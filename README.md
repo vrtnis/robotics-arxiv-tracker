@@ -5,7 +5,7 @@
         <img src="imgs/readme/robotics_arxiv_tracker.png" alt="Robotics Arxiv Tracker" width="300px" />
     </div>
     <div>
-        <img src="imgs/readme/readme_tracker.png" alt="Readme cover" width="300px" />
+        <img src="imgs/readme/readme_tracker_cover.png" alt="Readme cover" width="300px" />
     </div>
 </div>
 
