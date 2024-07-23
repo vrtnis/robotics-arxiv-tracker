@@ -1,4 +1,4 @@
-/* Exapand/Collapse with TAB key */
+/* Expand/Collapse with TAB key */
 var expanded = false;
 document.onkeydown = function (e) {
     if (e.keyCode === 9) {
@@ -8,6 +8,16 @@ document.onkeydown = function (e) {
     }
 };
 
+/* Expand the latest date entries by default */
+document.addEventListener("DOMContentLoaded", function () {
+    const dayContainers = document.querySelectorAll('.day-container');
+    if (dayContainers.length > 0) {
+        const latestContainer = dayContainers[0];
+        const detailsElements = latestContainer.querySelectorAll('details');
+        detailsElements.forEach(details => details.setAttribute('open', true));
+    }
+});
+
 /* Switch Theme */
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
@@ -15,11 +25,11 @@ function switchTheme(e) {
     if (e.target.checked) {
         document.documentElement.setAttribute('data-theme', 'light');
         document.getElementById("theme-icon").className = "ri-sun-line";
-        localStorage.setItem('theme', 'light'); //add this
+        localStorage.setItem('theme', 'light'); // add this
     } else {
         document.documentElement.setAttribute('data-theme', 'dark');
         document.getElementById("theme-icon").className = "ri-moon-line";
-        localStorage.setItem('theme', 'dark'); //add this
+        localStorage.setItem('theme', 'dark'); // add this
     }
 }
 
