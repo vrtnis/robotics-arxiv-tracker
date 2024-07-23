@@ -20,7 +20,7 @@
 
 ## **How It Works**
 
-The Robotics arXiv Tracker fetches the latest academic papers in the field of robotics automatically. The process is automated using Github Actions, which ensures that the data is updated regularly without any manual intervention.
+The Robotics arXiv Tracker fetches the latest academic papers in the field of robotics automatically.  It is based on template provided by [MyArxiv](https://github.com/MLNLP-World/MyArxiv). The process is automated using Github Actions, which ensures that the data is updated regularly without any manual intervention.
 
 
 1. **Github Actions Workflow:**
@@ -28,7 +28,7 @@ The Robotics arXiv Tracker fetches the latest academic papers in the field of ro
     - This file contains instructions for Github Actions to follow.
 
 2. **Daily Schedule:**
-    - The workflow is scheduled to run once every day using a cron job (`cron: "0 0 * * *"`).
+    - The workflow is scheduled to run once every day using a cron job.
     - At the specified time, Github Actions triggers the workflow to start.
 
 3. **Fetching Data:**
@@ -41,6 +41,6 @@ The Robotics arXiv Tracker fetches the latest academic papers in the field of ro
 
 ### **Frequency of Updates**
 
-The tracker is configured to fetch new data from the arXiv repository daily. This means that researchers can always access the most recent papers in their field of interest.
+The tracker is configured to fetch new data from the arXiv repository daily.
 
 
