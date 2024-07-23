@@ -1,5 +1,5 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["Transformer" , "Isaac", "MuJoCo", "Humanoid", "Robotic"];
+let titles_model = ["Transformer" , "Isaac", "MuJoCo", "Humanoid", "Robotic", "Skills", "Skill", "Embodied"];
 let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised", "VLM", "VLA"];
 let titles =  titles_model + titles_method + titles_type;
 let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio"];
