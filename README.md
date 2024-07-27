@@ -41,7 +41,7 @@ The Robotics arXiv Tracker fetches the latest academic papers in the field of ro
 
 ### **Frequency of Updates**
 
-The tracker is configured to fetch new data from the arXiv repository daily.
+The tracker is configured to fetch new data from the arXiv repository daily. 
 
 
 ### Discord:
